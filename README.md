@@ -1,41 +1,65 @@
-# 🛒 Shopping Cart System
+# Shopping Cart System
 
-A command-line shopping cart application developed in Python as a university final project.
+Python Programming Final Project
+
+Developed by **Furkan Taha Ünal**
+
+
+## Project Description
+
+This project is a simple shopping cart system created in Python for the final project.
+
+
+The program allows the user to:
+
+* add products
+* update product prices
+* delete products
+* display all products
+* sort products by price
+* show expensive products
+* export products to JSON
+
+The project uses CSV files to store product data.
+
+## Purpose of the Project
+
+This project was created to simulate a simple real-life shopping cart system.
+
+It can be useful for managing products, tracking prices, and practicing file operations with CSV and JSON files.
+
+The project was also used to practice object-oriented programming, validation, exception handling, and working with multiple Python modules.
 
 ## Features
 
-- Add products
-- Update product prices
-- Delete products
-- Display all products
-- Sort products by price
-- Show expensive products
-- Export product list to JSON
-- Store data in CSV format
-- Input validation with Regex
-- Custom exception handling
-- Function logging using decorators
+* CSV file handling
+* JSON export
+* Classes and objects
+* Lambda expressions
+* Custom decorator
+* Generator
+* Regex validation
+* Custom exception handling
+* Error handling
+* Modular structure
 
-## Technologies
+## Files
 
-- Python
-- Object-Oriented Programming (OOP)
-- CSV
-- JSON
-- Regular Expressions (Regex)
+* `main.py` → main menu and program start
+* `file_manager.py` → file operations and product management
+* `validators.py` → input validation
+* `product.py` → product class and custom exception
+* `shop.csv` → product database
+* `products.json` → exported JSON data
 
-## Project Structure
+## How to Run
 
-```
-shopping-cart-system/
-├── main.py
-├── file_manager.py
-├── validators.py
-├── product.py
-├── shop.csv
-└── products.json
+Run the `main.py` file.
+
+```bash
+python main.py
 ```
 
-## Author
+## Notes
 
-**Furkan Taha Ünal**
+The project was developed step by step during learning Python and improving file handling and object-oriented programming skills.
